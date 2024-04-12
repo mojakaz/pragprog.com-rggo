@@ -1,0 +1,10 @@
+goos: linux
+goarch: amd64
+pkg: pragprog.com/rggo/performance/colStats
+cpu: 12th Gen Intel(R) Core(TM) i5-1235U
+BenchmarkRunAvg-12    	      10	  96273146 ns/op	214895644 B/op	 2527102 allocs/op
+BenchmarkRunSum-12    	      10	 101563767 ns/op	214893433 B/op	 2527088 allocs/op
+BenchmarkRunMin-12    	      10	  97108549 ns/op	214892612 B/op	 2527083 allocs/op
+BenchmarkRunMax-12    	      10	 106127288 ns/op	214893465 B/op	 2527081 allocs/op
+PASS
+ok  	pragprog.com/rggo/performance/colStats	4.484s
